@@ -32,8 +32,8 @@ del /Q *.bin >nul 2>nul
 ::
 :: Temporarily add the compiler and make program directories to the system PATH ..
 ::
-@set PATH=C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\bin;%PATH%
-@set PATH=C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\bin;%PATH%
+@set PATH=C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\13.2 Rel1\bin;%PATH%
+@set PATH=C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\13.2 Rel1\arm-none-eabi\bin;%PATH%
 @set PATH=C:\Program Files (x86)\GnuWin32\bin;%PATH%
 
 :: Do the compile
